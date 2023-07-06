@@ -24,4 +24,4 @@ let score = 34.72;
 let pounds = Number(prompt('Enter weight(pounds): '))
 let kg = pounds * 0.45;
 
-console.log( Your weight in kilograms is ${kg}`)
+console.log( `Your weight in kilograms is ${kg}`)
