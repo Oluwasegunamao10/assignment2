@@ -36,22 +36,24 @@ let n = Number(prompt('Enter number: '))
   if (n % 2 !== 0) {
     console.log("Weird")
   } 
-  else {
-    if (n % 2 == 0, n >= 2 && n <= 5) {
+  else if 
+    (n % 2 === 0 && (n >= 2 && n <= 5)) {
       console.log("Not Weird")
     }
-     else if (n % 2 == 0, n >= 6 && n <= 20) {
+     else 
+     if (n % 2 === 0 && (n >= 6 && n <= 20)) {
       console.log("Weird")
     } 
-     else if (n % 2 == 0,  n >= 20) {
+     else 
+     if (n % 2 === 0,  n >= 20) {
       console.log("Weird")
     } 
     else {
       console.log("Not Weird")
     }
-  }
+ 
 
-//   number 2
+  // number 2
 
 let num_1 = Number(prompt('Enter first number: '))
 
@@ -103,7 +105,7 @@ let mathematics = prompt("Question 1: What is the value of pi: ")
 
 let frontend = prompt("Question 2: what is the file extension of html?: ")
 
-let data = prompt("Question 3: how many students do we have for full stack web dev in digital fortress'?: ")
+let data = prompt("Question 3: how many students do we have for full stack web dev in digital fortress?: ")
 
 if(mathematics == '3.142'){
     console.log('Question 1: "3.142" is correct')
